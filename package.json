@@ -1,0 +1,32 @@
+{
+  "name": "hexo-tag-text-emphasis",
+  "version": "1.0.0",
+  "description": "A Hexo tag plugin for applying emphasis marks to your text.",
+  "main": "lib/index.js",
+  "repository": "https://github.com/satorf/hexo-tag-text-emphasis",
+  "author": "satorf <satorf.t@gmail.com>",
+  "license": "MIT",
+  "engines" : {
+    "node" : ">=6.9"
+  },
+  "scripts": {
+    "test": "mocha --require intelli-espower-loader",
+    "coverage": "istanbul cover node_modules/mocha/bin/_mocha -- -R spec"
+  },
+  "eslintConfig": {
+    "env": {
+      "node": true
+    },
+    "extends": "airbnb-base"
+  },
+  "devDependencies": {
+    "eslint": "^3.13.1",
+    "eslint-config-airbnb-base": "^11.0.1",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-mocha": "^4.8.0",
+    "intelli-espower-loader": "^1.0.1",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.2.0",
+    "power-assert": "^1.4.2"
+  }
+}
