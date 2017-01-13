@@ -1,5 +1,8 @@
 language: node_js
 node_js:
-  - "6"
-  - "node"
+- '6'
+- node
 after_success: npm run coverage
+notifications:
+  slack:
+    secure: Sq1qem7w1qLJqrP5YVhSwWsSxa6xY2m+atqFtJXZPWesLi6K0SUBx5N96oAtXjSnfYGwge47Z6GOR74S0S1nCMvaVIxjjeFuWQWkm4ui7hUS/5DL4d/jfcbn7IZQp6q6yMcsB21hV0B0mSDCcfspj+xbl6NFXyL0URXpeprjUdvcHZ0t3SkX7NnkCkkLnrEfsSKzJMwqwDQA66mlrArOacpfWz9pCaXde52NnrSAHZCKEHoBAXwiBgdi9GKZhd8UwsF72NS5sRk+oIKV7Mpe0w6hBYb05B9syTtsHUsAb/kS8JtS4BSDIBUCrN5J/CCZsa9Nal4x640I0NdMpH0kW7/v9x3HNN71gjCHDsl3erw9BXf0rvI5M41q4yBmb0EYrgCo9/JKlbHONKlO4QFU/bETmhACqFjgl1pRXxwb+76hR+WF5y6udcBXthKsWaUEaYWmas4Z8VjTiSVnMFkIrPfKy5SV8SY9Qeoyiw/gpbH8VKvXc6D++LZZ8u22VPapBqtnM4y/TSsPTVEr9FTlGpQIHXdRAbMrCSeiQat9UxAF+lpjjnwgfhWR/ciZoDJSdyx14C6tJUWIm/NCImbZpN3hiwb7Sr4CVt4jHH/Z1OkFDcmAc2kYoNbozbekT46kctLUX7C4S5U69zNoBgCLpjOezZ3qtP2fFxrWevXar+8=
