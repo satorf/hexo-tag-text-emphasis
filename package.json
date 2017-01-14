@@ -1,6 +1,6 @@
 {
   "name": "hexo-tag-text-emphasis",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Hexo tag plugin for applying emphasis marks to your text.",
   "main": "lib/index.js",
   "repository": "https://github.com/satorf/hexo-tag-text-emphasis",
