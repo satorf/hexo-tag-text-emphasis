@@ -1,9 +1,27 @@
 # hexo-tag-text-emphasis
 
+[![NPM](https://nodei.co/npm/hexo-tag-text-emphasis.png)](https://nodei.co/npm/hexo-tag-text-emphasis/)
+
+[![npm version](https://badge.fury.io/js/hexo-tag-text-emphasis.svg)](https://badge.fury.io/js/hexo-tag-text-emphasis)
+[![Build Status](https://travis-ci.org/satorf/hexo-tag-text-emphasis.svg?branch=master)](https://travis-ci.org/satorf/hexo-tag-text-emphasis)
+[![Dependency Status](https://gemnasium.com/badges/github.com/satorf/hexo-tag-text-emphasis.svg)](https://gemnasium.com/github.com/satorf/hexo-tag-text-emphasis)
+[![Code Climate](https://codeclimate.com/github/satorf/hexo-tag-text-emphasis/badges/gpa.svg)](https://codeclimate.com/github/satorf/hexo-tag-text-emphasis)
+[![Test Coverage](https://codeclimate.com/github/satorf/hexo-tag-text-emphasis/badges/coverage.svg)](https://codeclimate.com/github/satorf/hexo-tag-text-emphasis/coverage)
+[![Issue Count](https://codeclimate.com/github/satorf/hexo-tag-text-emphasis/badges/issue_count.svg)](https://codeclimate.com/github/satorf/hexo-tag-text-emphasis)
+[![MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/satorf/hexo-tag-text-emphasis/blob/master/LICENSE)
+
 Hexoに傍点（圏点）を打つタグを追加するプラグインです。
 CSS3の`text-emphasis`プロパティを利用しています。
 
 [Can I use - text-emphasis](http://caniuse.com/#feat=text-emphasis)
+
+## インストール
+
+Hexoのブログのプロジェクトルートで以下のコマンドを実行してください。
+
+```
+$ npm install hexo-tag-text-emphasis --save
+```
 
 ## 書式
 
@@ -60,7 +78,7 @@ text_emphasis
 傍点の種類に応じて付与されるクラスは、
 傍点の`text-emphasis-style`と同じ値になります。
 
-`inject_style`が`false`の場合、インラインスタイルが指定されなくなります。
+`inline_style`が`false`の場合、インラインスタイルが指定されなくなります。
 各自でスタイルをあててください。
 
 ---
