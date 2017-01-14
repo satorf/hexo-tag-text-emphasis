@@ -1,0 +1,9 @@
+test/
+coverage/
+.codeclimate.yml
+.eslintrc.yml
+.gitignore
+.npmignore
+.travis.yml
+yarn-error.log
+yarn.lock
