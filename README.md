@@ -4,7 +4,6 @@
 
 [![npm version](https://badge.fury.io/js/hexo-tag-text-emphasis.svg)](https://badge.fury.io/js/hexo-tag-text-emphasis)
 [![Build Status](https://travis-ci.org/satorf/hexo-tag-text-emphasis.svg?branch=master)](https://travis-ci.org/satorf/hexo-tag-text-emphasis)
-[![Dependency Status](https://gemnasium.com/badges/github.com/satorf/hexo-tag-text-emphasis.svg)](https://gemnasium.com/github.com/satorf/hexo-tag-text-emphasis)
 [![Code Climate](https://codeclimate.com/github/satorf/hexo-tag-text-emphasis/badges/gpa.svg)](https://codeclimate.com/github/satorf/hexo-tag-text-emphasis)
 [![Test Coverage](https://codeclimate.com/github/satorf/hexo-tag-text-emphasis/badges/coverage.svg)](https://codeclimate.com/github/satorf/hexo-tag-text-emphasis/coverage)
 [![Issue Count](https://codeclimate.com/github/satorf/hexo-tag-text-emphasis/badges/issue_count.svg)](https://codeclimate.com/github/satorf/hexo-tag-text-emphasis)
@@ -29,7 +28,7 @@ $ npm install hexo-tag-text-emphasis --save
 {% text_emphasis [style] %}テキスト{% endtext_emphasis %}
 ```
 
-`style`は省略可能です。  
+`style`は省略可能です。
 `text-emphasis-style` CSSプロパティに渡す[キーワード値](https://developer.mozilla.org/ja/docs/Web/CSS/text-emphasis-style)、
 もしくは一文字の文字列を指定してください。
 
