@@ -10,17 +10,14 @@
     "node": ">=6.9"
   },
   "scripts": {
-    "test": "mocha --require intelli-espower-loader",
-    "coverage": "istanbul cover node_modules/mocha/bin/_mocha -- -R spec && codeclimate-test-reporter < coverage/lcov.info"
+    "test": "mocha --require intelli-espower-loader"
   },
   "devDependencies": {
-    "codeclimate-test-reporter": "^0.4.0",
     "eslint": "^4.1.0",
     "eslint-config-airbnb-base": "^12.0.0",
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-mocha": "^4.8.0",
     "intelli-espower-loader": "^1.0.1",
-    "istanbul": "^0.4.5",
     "mocha": "^4.0.0",
     "power-assert": "^1.4.2"
   }
