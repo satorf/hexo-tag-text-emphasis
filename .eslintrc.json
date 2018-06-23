@@ -1,6 +1,6 @@
 {
   "extends": ["standard", "prettier"],
-  "plugins": ["prettier"],
+  "plugins": ["prettier", "jest"],
   "rules": {
     "prettier/prettier": [
       "error",
@@ -10,5 +10,8 @@
         "semi": false
       }
     ]
+  },
+  "env": {
+    "jest/globals": true
   }
 }
