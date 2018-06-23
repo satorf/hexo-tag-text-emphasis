@@ -1,6 +1,0 @@
----
-  root: true
-  plugins:
-    - mocha
-  env:
-    es6: true
