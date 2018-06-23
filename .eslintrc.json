@@ -10,5 +10,8 @@
         "semi": false
       }
     ]
+  },
+  "env": {
+    "jest/globals": true
   }
 }
