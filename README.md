@@ -62,11 +62,11 @@ text_emphasis
 以下の通りに出力されます。
 
 ```
-<em class="text-emphasis sesame" style="font-style: inherit; text-emphasis-style: sesame;">テキスト</em>
-<em class="text-emphasis filled dot" style="font-style: inherit; text-emphasis-style: filled dot;">テキスト</em>
-<em class="text-emphasis open triangle" style="font-style: inherit; text-emphasis-style: open triangle;">テキスト</em>
-<em class="text-emphasis '*'" style="font-style: inherit; text-emphasis-style: '*';">テキスト</em>
-<em class="text-emphasis '🙂'" style="font-style: inherit; text-emphasis-style: '🙂';">テキスト</em>
+<em class="text-emphasis sesame" style="font-style: inherit; text-emphasis-style: sesame; -webkit-text-emphasis-style: sesame;">テキスト</em>
+<em class="text-emphasis filled dot" style="font-style: inherit; text-emphasis-style: filled dot; -webkit-text-emphasis-style: filled dot;">テキスト</em>
+<em class="text-emphasis open triangle" style="font-style: inherit; text-emphasis-style: open triangle; -webkit-text-emphasis-style: open triangle;">テキスト</em>
+<em class="text-emphasis '*'" style="font-style: inherit; text-emphasis-style: '*'; -webkit-text-emphasis-style: '*';">テキスト</em>
+<em class="text-emphasis '🙂'" style="font-style: inherit; text-emphasis-style: '🙂'; -webkit-text-emphasis-style: '🙂';">テキスト</em>
 ```
 
 各`<em>`タグには「text-emphasis」クラスと
